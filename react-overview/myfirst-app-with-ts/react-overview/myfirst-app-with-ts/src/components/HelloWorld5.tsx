@@ -9,7 +9,6 @@ const HelloWorld5: React.FC<Props> = (props) => {
     //const [state, setState] = useState(initialState);
     const [name, setName] = useState(props.name);
     const [count, setCount] = useState(0);
-    
     const changeNameToGreet = (event: any) => {
         setName(event.target.value);
     }

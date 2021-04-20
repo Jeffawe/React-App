@@ -11,7 +11,6 @@ type Props = {
 const HelloWorld6: React.FC<Props> = (props) => {
     //const [state, setState] = useState(initialState);
     const [user, setUser] = useState<User | null>(null);
-
     const fetchData = async () =>{
         try {
             let response = await fetch(`https://jsonplaceholder.typicode.com/users/2`);
@@ -33,8 +32,7 @@ const HelloWorld6: React.FC<Props> = (props) => {
         else {
             return 'No user to display';
         }
-    }
-    
+        }
         return (
             <div>
             <p>Hello {props.name}. Greetings from HelloWorld6.</p>
