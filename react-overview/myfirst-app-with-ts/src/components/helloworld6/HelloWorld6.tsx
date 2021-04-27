@@ -14,7 +14,7 @@ const HelloWorld6: React.FC<Props> = (props) => {
 
     const fetchData = async () =>{
         try {
-            let response = await fetch(`https://jsonplaceholder.typicode.com/users/2`);
+            let response = await fetch(`https://jsonplaceholder.typicode.com/users/1`);
             let data = await response.json()
             setUser(data);
         } catch (error) {

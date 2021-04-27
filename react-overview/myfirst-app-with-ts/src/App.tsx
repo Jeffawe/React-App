@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import HelloWorld4 from './components/HelloWorld4';
-import HelloWorld6 from './components/helloworld6/HelloWorld6';
+import HelloWorld7 from './components/helloworld7/HelloWorld7';
 import HelloWorld8 from './components/HelloWorld8';
 
 const App: React.FC = () => {
@@ -14,7 +14,7 @@ const App: React.FC = () => {
         <HelloWorld4 />
       </div>
       <div className="Column3">
-        <HelloWorld6 />
+        <HelloWorld7 />
       </div>
     </div>
   );
